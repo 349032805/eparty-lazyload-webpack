@@ -3,7 +3,7 @@ var config = {
     app: ['./app/core/bootstrap.js'],
   },
   output: {
-    path: __dirname + '/build/',
+    path: __dirname + '/app/',
     filename: 'bundle.js',
   },
   resolve: {
