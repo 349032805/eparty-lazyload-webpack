@@ -1,7 +1,7 @@
 {
   "name": "eparty-lazyload-webpack",
   "scripts": {
-    "start": "webpack-dev-server --content-base build --hot --inline --devtool eval",
+    "start": "webpack-dev-server --content-base app --hot --inline --devtool eval",
     "build": "webpack -p"
   },
   "author": "fanjun <349032805@qq.com>",

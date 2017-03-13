@@ -1,13 +1,13 @@
 var config = {
   entry: {
-    app: ['./src/core/bootstrap.js'],
+    app: ['./app/core/bootstrap.js'],
   },
   output: {
-    path:     __dirname + '/build/',
+    path: __dirname + '/build/',
     filename: 'bundle.js',
   },
   resolve: {
-    root: __dirname + '/src/',
+    root: __dirname + '/app/',
   },
   module: {
     noParse: [],
